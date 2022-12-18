@@ -1,0 +1,20 @@
+Feature: Medical Application view your health record
+
+Scenario: User Credentials for view your health record
+Given the user logs in the home page successfully "https://www.beauregardmedicalctr.com/#"
+Then the user verifies "PATIENTS" displayed in the home page and user clicks on "PATIENTS"
+and verifies "PATIENTS PORTAL"
+Then the user verifies the "View your health record" and user click on "View your health record"
+And user  verifies "Login to view your health record" 
+When user click on "User Credentials" user verifies "User Name" and "Password"
+
+
+
+Scenario: Using Mobile Phone for view your health record
+Given the user logs in the home page successfully "https://www.beauregardmedicalctr.com/#"
+Then the user verifies "PATIENTS" displayed in the home page and user clicks on "PATIENTS"
+and verifies "PATIENTS PORTAL"
+Then the user verifies the "View your health record" and user click on "View your health record"
+And user  verifies "Login to view your health record" 
+Then user verifies "Using Mobile Phone" and user click on "Using Mobile Phone"
+Then user verifies "First Name", "Last Name" and "mm/dd/yyyy"
