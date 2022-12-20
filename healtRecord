@@ -7,7 +7,7 @@ and verifies "PATIENTS PORTAL"
 Then the user verifies the "View your health record" and user click on "View your health record"
 And user  verifies "Login to view your health record" 
 Then user click on "User Credentials" user verifies "User Name" box exist
-Then user click on "User Credentials" user verifies "Password" box exsit
+Then user click on "User Credentials" user verifies "Password" box exist
 
 Scenario: Using Mobile Phone for view your health record
 Given the user logs in the home page successfully "https://www.beauregardmedicalctr.com/#"
@@ -25,3 +25,5 @@ Then user verifies "Last Name" box exist
 Then user verifies "mm/dd/yyyy" box exist
 
 TODO: 
+
+Scenario: 
